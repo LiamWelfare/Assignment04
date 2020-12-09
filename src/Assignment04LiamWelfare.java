@@ -3,7 +3,7 @@ public class Assignment04LiamWelfare {
         //declare array with values 2, 3, 5, 7
         int[] primes = { 2, 3, 5, 7 };
         //for loop that runs 4 times
-        for(int index = 0; index <= primes.length; index++) {
+        for(int index = 0; index <= primes.length - 1; index++) {
             System.out.println(primes[index]);
         }
         //print my name
